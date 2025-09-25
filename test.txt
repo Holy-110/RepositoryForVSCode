@@ -1,1 +1,5 @@
-テストファイルだお！
+nvidia系のソフトやライブラリのversion確認
+nvidia-smi
+
+仮想環境のversionを記述してくれる
+pip freeze > requirements.txt
