@@ -1,5 +1,8 @@
 nvidia系のソフトやライブラリのversion確認
 nvidia-smi
 
-仮想環境のversionを記述してくれる
+仮想環境のライブラリを記述してくれる
 pip freeze > requirements.txt
+
+仮想環境のライブラリのversionが記録されたrequirements.txtからライブラリを一括でinstall
+pip install -r requirements.txt
